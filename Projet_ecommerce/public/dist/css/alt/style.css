@@ -1,0 +1,36 @@
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cart-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .cart-table td.total-label {
+    text-align: right;
+  }
+  
+  .cart-table td.total-amount {
+    font-weight: bold;
+  }
+  
+  .btn-remove {
+    padding: 4px 8px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-remove:hover {
+    background-color: #c82333;
+  }
+  
